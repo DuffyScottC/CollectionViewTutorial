@@ -10,14 +10,12 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
-    var tableData: [String] = ["Evo X", "458", "GTR"]
-    var tableImages: [String] = ["evox.jpg", "458.jpg", "gtr.jpg"]
+    var tableData: [String] = ["Evo X", "458", "GTR", "GTR"]
+    var tableImages: [String] = ["evox.jpg", "458.jpg", "gtr.jpg", "gtr.jpg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("Testing")
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
