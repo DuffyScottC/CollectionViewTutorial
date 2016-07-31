@@ -12,6 +12,10 @@
 		D25D2F811D4E48D3005E37EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25D2F7F1D4E48D3005E37EF /* Main.storyboard */; };
 		D25D2F831D4E48D3005E37EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25D2F821D4E48D3005E37EF /* Assets.xcassets */; };
 		D25D2F861D4E48D3005E37EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25D2F841D4E48D3005E37EF /* LaunchScreen.storyboard */; };
+		D25D2F8E1D4E4B3D005E37EF /* colvwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25D2F8D1D4E4B3D005E37EF /* colvwCell.swift */; };
+		D26106481D4EA7D9005D73F0 /* 458.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D26106451D4EA7D9005D73F0 /* 458.jpg */; };
+		D26106491D4EA7D9005D73F0 /* gtr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D26106461D4EA7D9005D73F0 /* gtr.jpg */; };
+		D261064A1D4EA7D9005D73F0 /* evox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D26106471D4EA7D9005D73F0 /* evox.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D25D2F821D4E48D3005E37EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25D2F851D4E48D3005E37EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25D2F871D4E48D3005E37EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25D2F8D1D4E4B3D005E37EF /* colvwCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colvwCell.swift; sourceTree = "<group>"; };
+		D26106451D4EA7D9005D73F0 /* 458.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 458.jpg; sourceTree = "<group>"; };
+		D26106461D4EA7D9005D73F0 /* gtr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gtr.jpg; sourceTree = "<group>"; };
+		D26106471D4EA7D9005D73F0 /* evox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evox.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +65,23 @@
 				D25D2F7B1D4E48D3005E37EF /* AppDelegate.swift */,
 				D25D2F7D1D4E48D3005E37EF /* ViewController.swift */,
 				D25D2F7F1D4E48D3005E37EF /* Main.storyboard */,
+				D25D2F8D1D4E4B3D005E37EF /* colvwCell.swift */,
 				D25D2F821D4E48D3005E37EF /* Assets.xcassets */,
 				D25D2F841D4E48D3005E37EF /* LaunchScreen.storyboard */,
 				D25D2F871D4E48D3005E37EF /* Info.plist */,
+				D26106441D4EA772005D73F0 /* Supporting Files */,
 			);
 			path = CollectionViewTutorial;
+			sourceTree = "<group>";
+		};
+		D26106441D4EA772005D73F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26106451D4EA7D9005D73F0 /* 458.jpg */,
+				D26106461D4EA7D9005D73F0 /* gtr.jpg */,
+				D26106471D4EA7D9005D73F0 /* evox.jpg */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25D2F861D4E48D3005E37EF /* LaunchScreen.storyboard in Resources */,
+				D261064A1D4EA7D9005D73F0 /* evox.jpg in Resources */,
 				D25D2F831D4E48D3005E37EF /* Assets.xcassets in Resources */,
 				D25D2F811D4E48D3005E37EF /* Main.storyboard in Resources */,
+				D26106491D4EA7D9005D73F0 /* gtr.jpg in Resources */,
+				D26106481D4EA7D9005D73F0 /* 458.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			files = (
 				D25D2F7E1D4E48D3005E37EF /* ViewController.swift in Sources */,
 				D25D2F7C1D4E48D3005E37EF /* AppDelegate.swift in Sources */,
+				D25D2F8E1D4E4B3D005E37EF /* colvwCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +317,7 @@
 				D25D2F8C1D4E48D3005E37EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
