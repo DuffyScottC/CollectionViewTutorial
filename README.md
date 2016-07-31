@@ -76,6 +76,7 @@ Now we should be able to run the program and test it out! Try pressing the diffe
 //**Update**
 You can change the background color of the collectionview in the Attributes Inspector.
 
+The UICollectionView auto-enables scrolling if there are more cells than it can show on-screen. You can change the scrolling direction in the Attributes Inspector. With horizontal scrolling, cells overflow to the right. 
 
 
 
