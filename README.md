@@ -13,7 +13,8 @@ Place a collection view.
 Create new Coco Touch Class file to start working with the CollectionView. 
 Make sure it's a subclass of UICollectionViewCell. For this tutorial, the file is called colvwCell.swift
 
-Back in the Storyboard, select the cell again and open the Identities inspector. 
+Back in the Storyboard, select the cell again and enter the unique cell identifier in the Attributes Inspector
+Open the Identities inspector. 
 Under class, enter the name of the file you just created above.
 
 Right now, there is nothing in the cell. Let's put a label in there.
